@@ -1,0 +1,5 @@
+.env
+./projbackend/node_modules/*
+./projfrontend/node_modules/*
+./testbackend/node_modules/*
+./testfrontend/node_modules/*
