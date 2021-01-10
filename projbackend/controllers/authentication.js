@@ -18,6 +18,7 @@ exports.signup = (req, res) => {
     //populate errors first
     console.log("inside backend authentication controller signup");
     const errors = validationResult(req);
+    console.log("error are", errors)
 
     if(!errors.isEmpty()){
         return res.status(422).json({

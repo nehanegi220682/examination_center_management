@@ -48,12 +48,12 @@ var formSchema = new Schema({
         // required: true
     },
 
-    enrollment_no: {
-        type: String,
-        // required: true,
-        unique: true,
-        trim: true
-    },
+    // enrollment_no: {
+    //     type: String,
+    //     // required: true,
+    //     unique: true,
+    //     trim: true
+    // },
     center_name: {
         type: String,
         maxlength: 50,

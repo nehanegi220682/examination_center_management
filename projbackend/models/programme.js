@@ -8,6 +8,7 @@ var programmeSchema = new Schema({
         type: String,
         required: true,
         maxlength: 32,
+        unique:true
         
     }  
 
